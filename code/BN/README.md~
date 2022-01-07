@@ -48,5 +48,3 @@ init = tf.truncated_normal_initializer(mean=0, stddev=0.1)
 
 1) has bad training curve. training loss does not decrease.
 
-# Ref
-https://zhuanlan.zhihu.com/p/34879333
