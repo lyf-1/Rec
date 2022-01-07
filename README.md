@@ -18,7 +18,7 @@
 * **Distillation**
 * **Constrastive Learning**
 * **Multi-task Learning**
-* **BN & LN**
+* **BN & LN**  [code](./code/BN)
 * **Pre-trained Model**
 * **Tensorflow** [tf.md](./tf.md) : tensorflow | xdl
 * **......**
