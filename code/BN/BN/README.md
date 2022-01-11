@@ -117,9 +117,9 @@ LN $\gamma, \beta$ has the same dimension of hidden states, which means differen
 
 
 ## Exp Results
-|          | BNS    | BNL    | NBNS   | NBNL   | BNS_noctrl | BNL_noctrl | LNS | LNL |
+|          | BNS    | BNL    | NBNS   | NBNL   | BNS_noctrl | BNL_noctrl | LNL | LNS |
 | -------- | ------ | ------ | ------ | ------ | ---------- | ---------- | ------ | ------ |
-| Test ACC | 0.9816 | 0.9500 | 0.9760 | 0.1140 | 0.8045     | 0.5468     | 0.9833 | 0.9502 | 
+| Test ACC | 0.9816 | 0.9500 | 0.9760 | 0.1140 | 0.8045     | 0.5468     |  |  | 
 
 ./rst/learning_curve.pdf show the training curve of the above settings.
 
@@ -138,9 +138,10 @@ LN $\gamma, \beta$ has the same dimension of hidden states, which means differen
 
 tf.contrib.layers.layer_norm() import Error on MAC-conda-py27.
 
-
+TODO: BN-to-git vimrc-git LN-exp-record
 
 ## Code Ref
 BN: https://zhuanlan.zhihu.com/p/34879333
 LN: https://blog.csdn.net/qq_34418352/article/details/105684488
+
 

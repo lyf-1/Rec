@@ -88,7 +88,7 @@ def main():
 
 
 def plot():
-    folders = ['./rst/BNS', './rst/BNL', './rst/NBNS', './rst/NBNL', './rst/BNS_noctrl', './rst/BNL_noctrl', './rst/LNS', './rst/LNL']
+    folders = ['./rst/BNS', './rst/BNL', './rst/NBNS', './rst/NBNL', './rst/BNS_noctrl', './rst/BNL_noctrl']
     for folder in folders:
         with open(os.path.join(folder, 'rst.log'), 'r') as f:
             line = f.readline()
@@ -108,5 +108,5 @@ def plot():
 
 
 if __name__ == '__main__':
-    #main()
-    plot()
+    main()
+    #plot()

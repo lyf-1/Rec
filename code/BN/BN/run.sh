@@ -1,6 +1,6 @@
-source ~/envs/anaconda3/bin/activate tf1.x
-#source ~/miniconda3/bin/activate py27
-export CUDA_VISIBLE_DEVICES=0
+#source ~/envs/anaconda3/bin/activate tf1.x
+source ~/miniconda3/bin/activate py27
+export CUDA_VISIBLE_DEVICES=1
 
 #without BN and LN, with large/small weights.
 #export SETTING_ARGS="--save_path ./rst/NBNS"
@@ -11,8 +11,8 @@ export CUDA_VISIBLE_DEVICES=0
 #export SETTING_ARGS="--ubn --ulw --save_path ./rst/BNL"
 
 #with LN, with large/small weights.
-#export SETTING_ARGS="--uln --save_path ./rst/LNS"
-export SETTING_ARGS="--uln --ulw --save_path ./rst/LNL"
+export SETTING_ARGS="--uln --save_path ./rst/LNS"
+#export SETTING_ARGS="--uln --ulw --save_path ./rst/LNL"
 
 #BN without tf.control_dependencies(). moving_mean|moving_variance is not updated.
 #export SETTING_ARGS="--ubn --save_path ./rst/BNS_noctrl"
